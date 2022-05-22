@@ -9,14 +9,14 @@ import SectionBanner from './SectionBanner';
 
 const Home = () => {
     return (
-        <div className='px-12'>
+        <div className='max-w-7xl mx-auto px-12'>
             <Banner></Banner>
             <Info></Info>
             <Partses></Partses>
             <BusinessSummary></BusinessSummary>
             <SectionBanner></SectionBanner>
             <Contact></Contact>
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
         </div>
     );
 };
