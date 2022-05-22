@@ -1,0 +1,56 @@
+[
+    {
+        "_id": 1,
+        "name": "Galfer Front Brake Line Kit",
+        "img": "https://i.ibb.co/2yK3Rwy/opp.png",
+        "description": "Lorem ipsum dolor sit amet",
+        "minimum": "2",
+        "available": "50",
+        "price": "1500"
+    },
+    {
+        "_id": 2,
+        "name": "Galfer Front Brake Line Kit",
+        "img": "https://i.ibb.co/2yK3Rwy/opp.png",
+        "description": "Lorem ipsum dolor sit amet",
+        "minimum": "2",
+        "available": "50",
+        "price": "1500"
+    },
+    {
+        "_id": 3,
+        "name": "Galfer Front Brake Line Kit",
+        "img": "https://i.ibb.co/2yK3Rwy/opp.png",
+        "description": "Lorem ipsum dolor sit amet",
+        "minimum": "2",
+        "available": "50",
+        "price": "1500"
+    },
+    {
+        "_id": 4,
+        "name": "Galfer Front Brake Line Kit",
+        "img": "https://i.ibb.co/2yK3Rwy/opp.png",
+        "description": "Lorem ipsum dolor sit amet",
+        "minimum": "2",
+        "available": "50",
+        "price": "1500"
+    },
+    {
+        "_id": 5,
+        "name": "Galfer Front Brake Line Kit",
+        "img": "https://i.ibb.co/2yK3Rwy/opp.png",
+        "description": "Lorem ipsum dolor sit amet",
+        "minimum": "2",
+        "available": "50",
+        "price": "1500"
+    },
+    {
+        "_id": 6,
+        "name": "Galfer Front Brake Line Kit",
+        "img": "https://i.ibb.co/2yK3Rwy/opp.png",
+        "description": "Lorem ipsum dolor sit amet",
+        "minimum": "2",
+        "available": "50",
+        "price": "1500"
+    }
+]

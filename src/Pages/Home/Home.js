@@ -1,4 +1,5 @@
 import React from 'react';
+import Partses from '../Parts/Partses';
 import Banner from './Banner';
 import BusinessSummary from './BusinessSummary';
 import Contact from './Contact';
@@ -11,6 +12,7 @@ const Home = () => {
         <div className='px-12'>
             <Banner></Banner>
             <Info></Info>
+            <Partses></Partses>
             <BusinessSummary></BusinessSummary>
             <SectionBanner></SectionBanner>
             <Contact></Contact>
