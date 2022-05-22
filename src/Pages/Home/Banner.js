@@ -1,5 +1,6 @@
 import React from 'react';
 import parts from '../../assets/images/banner-img-2-removebg.png';
+import Button from '../Shared/Button';
 
 
 const Banner = () => {
@@ -11,7 +12,7 @@ const Banner = () => {
                     <h1 class="text-5xl font-bold">Best Bike,s Parts
                         Manufacturer</h1>
                     <p class="py-6">A bike parts manufacturing industry. We make parts and wholesale. We are the best in the market. And we have many years of reputation.</p>
-                    <button class="btn btn-primary">Get Started</button>
+                    <Button>Get Started</Button>
                 </div>
             </div>
         </div>
