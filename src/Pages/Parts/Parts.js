@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Button from '../Shared/Button';
 
 const Parts = ({ parts }) => {
@@ -15,9 +16,12 @@ const Parts = ({ parts }) => {
                 <h3>Minimum Order Qnty:{minimum}</h3>
                 <h3>Available:{available}</h3>
                 <h2>Price Per Qnty:{price}</h2>
-                <div class="card-actions">
+                {/* <div class="card-actions">
                     <Button>Order Now</Button>
-                </div>
+                </div> */}
+                <Link to="/orderpage">
+                    <button className="btn btn-primary uppercase text-white font-bold bg-gradient-to-r from-secondary to-primary">Order Now</button>
+                </Link>
             </div>
         </div>
     );
