@@ -13,7 +13,9 @@ import Contact from './Pages/Home/Contact';
 function App() {
   return (
     <div>
-      <Navbar></Navbar>
+      <div className=' px-12'>
+        <Navbar ></Navbar>
+      </div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
