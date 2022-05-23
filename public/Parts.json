@@ -2,55 +2,82 @@
     {
         "_id": 1,
         "name": "Galfer Front Brake Line Kit",
-        "img": "https://i.ibb.co/2yK3Rwy/opp.png",
-        "description": "Lorem ipsum dolor sit amet",
-        "minimum": "2",
+        "img": "https://content.motosport.com/images/items/900/GLF/GLF0001/X001-Y001.jpg",
+        "description": "This product contains chemicals",
+        "minimum": "5",
         "available": "50",
         "price": "1500"
     },
     {
         "_id": 2,
-        "name": "Galfer Front Brake Line Kit",
-        "img": "https://i.ibb.co/2yK3Rwy/opp.png",
+        "name": "Goodridge Banjo Bolt",
+        "img": "https://content.motosport.com/images/items/900/GRI/GRI0007/X002-Y006.jpg",
         "description": "Lorem ipsum dolor sit amet",
-        "minimum": "2",
-        "available": "50",
-        "price": "1500"
+        "minimum": "5",
+        "available": "40",
+        "price": "750"
     },
     {
         "_id": 3,
-        "name": "Galfer Front Brake Line Kit",
-        "img": "https://i.ibb.co/2yK3Rwy/opp.png",
-        "description": "Lorem ipsum dolor sit amet",
-        "minimum": "2",
+        "name": "Double Banjo Bolt",
+        "img": "https://content.motosport.com/images/items/900/SHD/SHD0001/X001.jpg",
+        "description": "Shindy Products Aluminum Double Banjo Bolt With Bleeder",
+        "minimum": "5",
         "available": "50",
-        "price": "1500"
+        "price": "900"
     },
     {
         "_id": 4,
-        "name": "Galfer Front Brake Line Kit",
-        "img": "https://i.ibb.co/2yK3Rwy/opp.png",
-        "description": "Lorem ipsum dolor sit amet",
-        "minimum": "2",
+        "name": "Sunstar Chain",
+        "img": "https://content.motosport.com/images/items/900/SUT/SUT0016/X001-Y001.jpg",
+        "description": "Sunstar Chain & Steel Sprocket Combo",
+        "minimum": "5",
         "available": "50",
-        "price": "1500"
+        "price": "1400"
     },
     {
         "_id": 5,
-        "name": "Galfer Front Brake Line Kit",
-        "img": "https://i.ibb.co/2yK3Rwy/opp.png",
-        "description": "Lorem ipsum dolor sit amet",
-        "minimum": "2",
+        "name": "Werkes Fender",
+        "img": "https://content.motosport.com/images/items/900/CWE/CWE0001/X001-Y023.jpg",
+        "description": "Zoom InCompetition Werkes Fender Eliminator Kit - Standard",
+        "minimum": "5",
         "available": "50",
         "price": "1500"
     },
     {
         "_id": 6,
-        "name": "Galfer Front Brake Line Kit",
-        "img": "https://i.ibb.co/2yK3Rwy/opp.png",
-        "description": "Lorem ipsum dolor sit amet",
-        "minimum": "2",
+        "name": "Yoshimura Alpha",
+        "img": "https://content.motosport.com/images/items/900/YSH/YSH0054/X001-Y017.jpg",
+        "description": "Yoshimura Alpha T Slip-On Exhaust",
+        "minimum": "5",
         "available": "50",
-        "price": "1500"
+        "price": "3500"
+    },
+    {
+        "_id": 7,
+        "name": "Chicken Hawk",
+        "img": "https://content.motosport.com/images/items/900/CHW/CHW0004/X001-Y002.jpg",
+        "description": "Chicken Hawk Classic Line Tire Warmers - Digital",
+        "minimum": "5",
+        "available": "50",
+        "price": "6500"
+    },
+    {
+        "_id": 8,
+        "name": "Gallon Tank",
+        "img": "https://content.motosport.com/images/items/900/BCH/BCH00K9/X001-Y008.jpg",
+        "description": "Biker's Choice 3.3 Gallon Gas Tank",
+        "minimum": "5",
+        "available": "50",
+        "price": "5500"
+    },
+    {
+        "_id": 9,
+        "name": "Bolt Works",
+        "img": "https://content.motosport.com/images/items/900/BMH/BMH001X/X001-Y001.jpg",
+        "description": "Bolt Works Tank Washer",
+        "minimum": "5",
+        "available": "50",
+        "price": "600"
     }
 ]
