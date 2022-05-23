@@ -3,7 +3,7 @@ import Partses from '../Parts/Partses';
 import Banner from './Banner';
 import BusinessSummary from './BusinessSummary';
 import Contact from './Contact';
-import Footer from './Footer';
+// import Footer from './Footer';
 import Info from './Info';
 import SectionBanner from './SectionBanner';
 

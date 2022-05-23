@@ -1,9 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import Button from '../Shared/Button';
+import { useNavigate } from 'react-router-dom';
+// import Button from '../Shared/Button';
 
 const Parts = ({ parts }) => {
-    const { name, img, description, minimum, available, price } = parts;
+    const { _id, name, img, description, minimum, available, price } = parts;
+    const navigate = useNavigate();
+
+    const navigateToOrder = id => {
+        navigate(`/parts/${id}`);
+    }
     return (
         <div class=" card w-96 bg-base-100 shadow-xl ">
             <figure class="px-10 pt-10">
@@ -19,9 +24,9 @@ const Parts = ({ parts }) => {
                 {/* <div class="card-actions">
                     <Button>Order Now</Button>
                 </div> */}
-                <Link to="/orderpage">
-                    <button className="btn btn-primary uppercase text-white font-bold bg-gradient-to-r from-secondary to-primary">Order Now</button>
-                </Link>
+
+                <button onClick={() => navigateToOrder(_id)} className="btn btn-primary uppercase text-white font-bold bg-gradient-to-r from-secondary to-primary">Order Now</button>
+
             </div>
         </div>
     );

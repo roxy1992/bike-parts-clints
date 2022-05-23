@@ -1,28 +1,33 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import Button from '../Pages/Shared/Button';
 
 const OrderPage = () => {
-    const { partsesId } = useParams()
-    const [product, setPartses] = useState({});
+    const { partsId } = useParams();
+    const [parts, setParts] = useState({});
 
     useEffect(() => {
-        const url = `https://gentle-springs-06548.herokuapp.com/service/${partsesId}`;
+        const url = `http://localhost:5000/parts/${partsId}`;
 
         fetch(url)
             .then(res => res.json())
-            .then(data => setPartses(data));
+            .then(data => setParts(data));
     }, [])
     return (
-        <div className='container' >
-            <div className='text-center'>
-                <img src={product.img} alt="" />
-                <h2>{product.name} </h2>
-                <h4>Price : {product.price}</h4>
-                <h5>{product.description}</h5>
-                <h4>Stock:{product.quantity}</h4>
-                <Link to="/">
-                    <button className='btn btn-primary'>Manage Product</button>
-                </Link>
+        <div class=" card w-96 bg-base-100 shadow-xl  ">
+            <figure class="px-10 pt-10">
+                <img src={parts.img} alt="" />
+            </figure>
+            <div class="card-body items-center text-center">
+                <h2>{parts.name}</h2>
+                {/* <img src={img} alt="" /> */}
+                <p>{parts.description}</p>
+                <h3>Minimum Order Qnty:{parts.minimum}</h3>
+                <h3>Available:{parts.available}</h3>
+                <h2>Price Per Qnty:{parts.price}</h2>
+                <div class="card-actions">
+                    <Button className="btn btn-primary uppercase text-white font-bold bg-gradient-to-r from-secondary to-primary">Order Now</Button>
+                </div>
             </div>
         </div>
     );
