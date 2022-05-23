@@ -9,6 +9,9 @@ import OrderPage from './Hooks/OrderPage';
 import Footer from './Pages/Home/Footer';
 import Partses from './Pages/Parts/Partses';
 import Contact from './Pages/Home/Contact';
+import SignUp from './Pages/Login/SignUp';
+import RequireAuth from './Pages/Login/RequireAuth';
+import Payment from './Pages/Parts/Payment';
 
 function App() {
   return (
@@ -25,8 +28,10 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<SignUp />} />
         <Route path="/allparts" element={<AllParts />} />
         <Route path="/orderpage" element={<OrderPage />} />
+        <Route path="/payment" element={<RequireAuth><Payment /></RequireAuth>} />
       </Routes>
       <div className=' px-12'>
         <Footer></Footer>

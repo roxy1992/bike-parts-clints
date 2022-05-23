@@ -30,7 +30,7 @@ const Partses = () => {
                 }
             </div>
             <div className=' flex justify-center'>
-                {/* <Button class="btn btn-active btn-link btn-center">More Parts</Button> */}
+                {/* <ButtonclassName="btn btn-active btn-link btn-center">More Parts</Button> */}
                 <Link to="/allparts">
                     <button className="btn btn-primary uppercase text-white font-bold bg-gradient-to-r from-secondary to-primary">More Parts</button>
                 </Link>

@@ -14,20 +14,21 @@ const OrderPage = () => {
             .then(data => setParts(data));
     }, [])
     return (
-        <div class=" card w-96 bg-base-100 shadow-xl  ">
-            <figure class="px-10 pt-10">
+        <div className=" card w-96 bg-base-100 shadow-xl flex h-screen justify-center items-center ">
+            <figure className="px-10 pt-10">
                 <img src={parts.img} alt="" />
             </figure>
-            <div class="card-body items-center text-center">
+            <div className="card-body items-center text-center">
                 <h2>{parts.name}</h2>
                 {/* <img src={img} alt="" /> */}
                 <p>{parts.description}</p>
                 <h3>Minimum Order Qnty:{parts.minimum}</h3>
                 <h3>Available:{parts.available}</h3>
                 <h2>Price Per Qnty:{parts.price}</h2>
-                <div class="card-actions">
+                <div className="card-actions">
                     <Button className="btn btn-primary uppercase text-white font-bold bg-gradient-to-r from-secondary to-primary">Order Now</Button>
                 </div>
+
             </div>
         </div>
     );
