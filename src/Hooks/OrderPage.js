@@ -6,6 +6,9 @@ const OrderPage = () => {
     const { partsId } = useParams();
     const [parts, setParts] = useState({});
 
+    /* */
+
+
     useEffect(() => {
         const url = `http://localhost:5000/parts/${partsId}`;
 
@@ -26,10 +29,15 @@ const OrderPage = () => {
                 <h3>Available:{parts.available}</h3>
                 <h2>Price Per Qnty:{parts.price}</h2>
                 <div className="card-actions">
-                    <Button className="btn btn-primary uppercase text-white font-bold bg-gradient-to-r from-secondary to-primary">Order Now</Button>
+                    <Link to="/allparts">
+                        <button className="btn btn-primary uppercase text-white font-bold bg-gradient-to-r from-secondary to-primary">More Parts</button>
+                    </Link>
+                    {/* <Button className="btn btn-primary uppercase text-white font-bold bg-gradient-to-r from-secondary to-primary">Order Now</Button> */}
                 </div>
 
             </div>
+
+
         </div>
     );
 };

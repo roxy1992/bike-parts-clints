@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 // import Button from '../Shared/Button';
 
-const Parts = ({ parts }) => {
+const Parts = ({ parts, }) => {
     const { _id, name, img, description, minimum, available, price } = parts;
     const navigate = useNavigate();
 

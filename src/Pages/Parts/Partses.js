@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Partses = () => {
 
+
     // const [partses, setPartses] = useState([]);
 
     // useEffect(() => {
