@@ -1,5 +1,5 @@
 import React from 'react';
-import SecBanner from '../../assets/images/banner-parst.jpg';
+import SecBanner from '../../assets/images/banner-img-2-removebg.png';
 // import background from '../../assets/images/bacr-00.png';
 import Button from '../Shared/Button';
 
@@ -8,7 +8,7 @@ const SectionBanner = () => {
         <section style={{
             // background: `url(${background})`
         }}
-            className='  flex justify-center items-center'>
+            className='  flex justify-center px-10 items-center'>
             <div className='flex-1 hidden lg:block'>
                 <img className='' src={SecBanner} alt="" />
             </div>

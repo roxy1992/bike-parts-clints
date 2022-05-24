@@ -9,7 +9,7 @@ import SectionBanner from './SectionBanner';
 
 const Home = () => {
     return (
-        <div className='max-w-7xl mx-auto px-12'>
+        <div className='max-w-7xl mx-auto '>
             <Banner></Banner>
             <Info></Info>
             <Partses></Partses>

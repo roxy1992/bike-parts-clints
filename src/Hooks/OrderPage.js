@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import Button from '../Pages/Shared/Button';
+// import Button from '../Pages/Shared/Button';
 
 const OrderPage = () => {
     const { partsId } = useParams();

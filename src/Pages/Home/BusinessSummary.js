@@ -29,7 +29,7 @@ const BusinessSummary = () => {
         },
     ]
     return (
-        <div className='my-28'>
+        <div className='my-28 '>
             <div className='text-center'>
                 <h3 className='text-primary  text-xl font-bold uppercase'>Our Business Summary</h3>
                 <h2 className='text-4xl'>try to understand user expectation</h2>

@@ -14,10 +14,15 @@ import RequireAuth from './Pages/Login/RequireAuth';
 import Payment from './Pages/Parts/Payment';
 import NotFound from './Pages/Shared/NotFound';
 import Blogs from './Pages/Blogs/Blogs';
+import Dashboard from './Pages/Dashboard/Dashboard';
+import MyOrders from './Pages/Dashboard/MyOrders';
+import AddAReview from './Pages/Dashboard/AddAReview';
+import MyProfile from './Pages/Dashboard/MyProfile';
 
 function App() {
   return (
-    <div>
+    <div className='max-w-7xl mx-auto px-12' >
+      {/* className='bg-success' */}
       <Navbar ></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -34,6 +39,17 @@ function App() {
         <Route path="/allparts" element={<AllParts />} />
         <Route path="/orderpage" element={<OrderPage />} />
         <Route path="/payment" element={<RequireAuth><Payment /></RequireAuth>} />
+
+        <Route path="/dashboard" element={
+          <RequireAuth>
+            <Dashboard />
+          </RequireAuth>
+        }>
+          <Route index element={<MyOrders></MyOrders>}></Route>
+          <Route path='addareview' element={<AddAReview></AddAReview>}></Route>
+          <Route path='myprofile' element={<MyProfile></MyProfile>}></Route>
+        </Route>
+
       </Routes>
       <Footer></Footer>
     </div>
