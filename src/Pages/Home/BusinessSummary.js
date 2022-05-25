@@ -1,7 +1,7 @@
 import React from 'react';
-import fluoride from '../../assets/images/fluoride.png';
-import cavity from '../../assets/images/cavity.png';
-import whitening from '../../assets/images/whitening.png';
+import cuntry from '../../assets/icons/cuntry.jpg';
+import clients from '../../assets/icons/clicnt.png';
+import feedback from '../../assets/icons/fedbk.png';
 import Business from './Business';
 
 const BusinessSummary = () => {
@@ -11,21 +11,21 @@ const BusinessSummary = () => {
             text: 'Countries',
             description: 'We have business in 72 countries. Where we are doing regular business',
             number: '72',
-            img: fluoride
+            img: cuntry
         },
         {
             _id: 2,
             text: 'Happy Clints',
             description: 'We have 382+ and more happy clients. And we clients are very happy',
             number: '273+',
-            img: cavity
+            img: clients
         },
         {
             _id: 3,
             text: 'Feedbaks',
             description: 'We have 432+ better feedback. Which puts us above all.',
             number: '432+',
-            img: whitening
+            img: feedback
         },
     ]
     return (

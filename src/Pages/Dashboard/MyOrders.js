@@ -13,26 +13,26 @@ const MyOrders = () => {
 
     return (
         <div>
-            <h2>My Order</h2>
+            <h2 className='text-center font-bold'>My Order</h2>
             <div class="overflow-x-auto">
                 <table class="table w-full">
                     {/* <!-- head --> */}
                     <thead>
                         <tr>
                             <th></th>
-                            <th>Name</th>
                             <th>Mail</th>
                             <th>Order Item</th>
+                            <th>Remove Order</th>
                         </tr>
                     </thead>
                     <tbody>
                         {/* <!-- row 1 --> */}
-                        <tr>
+                        {/* <tr className='font-bold'>
                             <th>1</th>
-                            <td>Cy Ganderton</td>
-                            <td>Quality Control Specialist</td>
-                            <td>Blue</td>
-                        </tr>
+                            <td>kalam@bbc.com</td>
+                            <td>Yoshimura Alpha</td>
+                            <td><button class="btn btn-xs btn-warning">Remove Order</button></td>
+                        </tr> */}
 
                     </tbody>
                 </table>

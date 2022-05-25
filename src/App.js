@@ -20,6 +20,9 @@ import AddAReview from './Pages/Dashboard/AddAReview';
 import MyProfile from './Pages/Dashboard/MyProfile';
 import Users from './Pages/Dashboard/Users';
 import RequireAdmin from './Pages/Login/RequireAdmin';
+import AllOrders from './Pages/Dashboard/AllOrders';
+import ManageParts from './Pages/Dashboard/ManageParts';
+import AddParts from './Pages/Dashboard/AddParts';
 
 function App() {
   return (
@@ -51,6 +54,9 @@ function App() {
           <Route path='addareview' element={<AddAReview></AddAReview>}></Route>
           <Route path='myprofile' element={<MyProfile></MyProfile>}></Route>
           <Route path='users' element={<RequireAdmin><Users></Users></RequireAdmin>}></Route>
+          <Route path='manageparts' element={<RequireAdmin><ManageParts></ManageParts></RequireAdmin>}></Route>
+          <Route path='allorders' element={<RequireAdmin><AllOrders></AllOrders></RequireAdmin>}></Route>
+          <Route path='addparts' element={<RequireAdmin><AddParts></AddParts></RequireAdmin>}></Route>
         </Route>
 
       </Routes>

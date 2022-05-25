@@ -11,16 +11,16 @@ const Users = () => {
     }
     return (
         <div>
-            <h2 className="text-2xl">All Users: {users.length}</h2>
+            <h2 className="text-2xl font-bold text-center text-black-500">All Users: {users.length}</h2>
             <div class="overflow-x-auto">
                 <table class="table w-full">
                     {/* <!-- head --> */}
                     <thead>
                         <tr>
                             <th></th>
-                            <th>Name</th>
-                            <th>Mail</th>
-                            <th>Order Item</th>
+                            <th>email</th>
+                            <th>Make Admin</th>
+                            <th>Remove User</th>
                         </tr>
                     </thead>
                     <tbody>
