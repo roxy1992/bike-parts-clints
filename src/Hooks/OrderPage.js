@@ -10,7 +10,7 @@ const OrderPage = () => {
 
 
     useEffect(() => {
-        const url = `http://localhost:5000/parts/${partsId}`;
+        const url = `https://guarded-taiga-58586.herokuapp.com/parts/${partsId}`;
 
         fetch(url)
             .then(res => res.json())

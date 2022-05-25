@@ -34,7 +34,7 @@ const BusinessSummary = () => {
                 <h3 className='text-primary  text-xl font-bold uppercase'>Our Business Summary</h3>
                 <h2 className='text-4xl'>try to understand user expectation</h2>
             </div>
-            <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
+            <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 my-20'>
                 {
                     businessSummary.map(business => <Business
                         key={business._id}

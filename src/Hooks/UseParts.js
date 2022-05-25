@@ -4,7 +4,7 @@ const UseParts = () => {
     const [partses, setPartses] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/parts')
+        fetch('https://guarded-taiga-58586.herokuapp.com/parts')
             .then(res => res.json())
             .then(data => setPartses(data));
     }, [])

@@ -6,7 +6,7 @@ const MyOrders = () => {
     // const [user] = useAuthState(auth);
 
     // useEffect(() => {
-    //     fetch(`http://localhost:5000/orders`)
+    //     fetch(`https://guarded-taiga-58586.herokuapp.com/orders`)
     //         .then(res =>? res.json())
     //         .then(data => setOrders(data))
     // }, [])

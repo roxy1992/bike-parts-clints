@@ -23,6 +23,8 @@ import RequireAdmin from './Pages/Login/RequireAdmin';
 import AllOrders from './Pages/Dashboard/AllOrders';
 import ManageParts from './Pages/Dashboard/ManageParts';
 import AddParts from './Pages/Dashboard/AddParts';
+import MyPortfolio from './Pages/MyPortfolio/MyPortfolio';
+import Testimonials from './Pages/Home/Testimonials';
 
 function App() {
   return (
@@ -38,6 +40,8 @@ function App() {
         <Route path="/revew" element={<Partses />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blogs" element={<Blogs />} />
+        <Route path="/myportfolio" element={<MyPortfolio />} />
+        <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />

@@ -5,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const UserRow = ({ user, index, refetch }) => {
     const { email, role } = user;
     const makeAdmin = () => {
-        fetch(`http://localhost:5000/user/admin/${email}`, {
+        fetch(`https://guarded-taiga-58586.herokuapp.com/user/admin/${email}`, {
             method: 'PUT'
         })
             .then(res => {

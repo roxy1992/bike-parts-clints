@@ -6,14 +6,16 @@ import Contact from './Contact';
 // import Footer from './Footer';
 import Info from './Info';
 import SectionBanner from './SectionBanner';
+import Testimonials from './Testimonials';
 
 const Home = () => {
     return (
         <div className='max-w-7xl mx-auto '>
             <Banner></Banner>
-            <Info></Info>
+            {/* <Info></Info> */}
             <Partses></Partses>
             <BusinessSummary></BusinessSummary>
+            <Testimonials></Testimonials>
             <SectionBanner></SectionBanner>
             <Contact></Contact>
             {/* <Footer></Footer> */}

@@ -8,7 +8,7 @@ const SectionBanner = () => {
         <section style={{
             // background: `url(${background})`
         }}
-            className='  flex justify-center px-10 items-center'>
+            className='  flex justify-center bg-base-200 px-10 items-center'>
             <div className='flex-1 hidden lg:block'>
                 <img className='' src={SecBanner} alt="" />
             </div>

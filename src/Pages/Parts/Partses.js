@@ -21,7 +21,7 @@ const Partses = () => {
 
     return (
         <div>
-            <h2 className="text-5xl font-bold text-center p-5"> Our Parts</h2>
+            <h2 className="text-5xl  font-bold text-center p-5"> Our Parts</h2>
             <div className='grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-8 px-4 pt-12 sm:grid-cols-3 pb-10'>
                 {
                     partses.slice(0, 6).map(parts => <Parts
