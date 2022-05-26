@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div style={{
             // background: `url(${contactBacImg})`
-        }} className='bg-neutral-content px-10 py-14 '>
+        }} className='bg-neutral-content  py-14 '>
             <div className='text-center pb-14 text-white'>
                 <h1 className='text-xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-accent to-secondary'>
                     Contact Us

@@ -5,7 +5,7 @@ import Button from '../Shared/Button';
 
 const Banner = () => {
     return (
-        <div className="hero min-h-screen bg-neutral-content">
+        <div className="hero min-h-screen ">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <img src={parts} className="max-w-sm" />
                 <div>

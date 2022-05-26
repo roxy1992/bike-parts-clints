@@ -28,7 +28,7 @@ import Testimonials from './Pages/Home/Testimonials';
 
 function App() {
   return (
-    <div className='max-w-7xl  mx-auto px-12' >
+    <div className='max-w-7xl  mx-auto px-12 ' >
       {/* className='bg-neutral-content' */}
       <Navbar ></Navbar>
       <Routes>

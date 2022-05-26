@@ -10,7 +10,7 @@ import Testimonials from './Testimonials';
 
 const Home = () => {
     return (
-        <div className='max-w-7xl mx-auto '>
+        <div className='max-w-7xl mx-auto  '>
             <Banner></Banner>
             {/* <Info></Info> */}
             <Partses></Partses>
