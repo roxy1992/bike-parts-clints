@@ -28,15 +28,15 @@ import Testimonials from './Pages/Home/Testimonials';
 
 function App() {
   return (
-    <div className='max-w-7xl mx-auto px-12' >
-      {/* className='bg-success' */}
+    <div className='max-w-7xl  mx-auto px-12' >
+      {/* className='bg-neutral-content' */}
       <Navbar ></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/home" element={<Home />} />
         <Route path="/parts" element={<AllParts />} />
-        <Route path="/parts/:partsId" element={<OrderPage />} />
+        <Route path="/parts/:partsId" element={<RequireAuth><OrderPage /></RequireAuth>} />
         <Route path="/revew" element={<Partses />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blogs" element={<Blogs />} />

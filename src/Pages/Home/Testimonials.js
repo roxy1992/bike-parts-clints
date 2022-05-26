@@ -28,7 +28,7 @@ const Testimonials = () => {
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                         </div>
-                        <p>We are using cookies for no reason.</p>
+                        <p>I always carry parts for my car from now on. Very good in service</p>
                         <div class="card-actions justify-end">
 
                         </div>
@@ -54,7 +54,7 @@ const Testimonials = () => {
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                         </div>
-                        <p>We are using cookies for no reason.</p>
+                        <p>They prepare their parts very efficiently. I am satisfied</p>
                         <div class="card-actions justify-end">
 
                         </div>
@@ -80,7 +80,7 @@ const Testimonials = () => {
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                         </div>
-                        <p>We are using cookies for no reason.</p>
+                        <p>The parts are made very strong. That's why I don't have parts all the time now.</p>
                         <div class="card-actions justify-end">
 
                         </div>

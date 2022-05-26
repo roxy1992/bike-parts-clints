@@ -30,14 +30,10 @@ const OrderPage = () => {
                 <h2>Price Per Qnty:{parts.price}</h2>
                 <div className="card-actions">
                     <Link to="/allparts">
-                        <button className="btn btn-primary uppercase text-white font-bold bg-gradient-to-r from-secondary to-primary">More Parts</button>
+                        <button className="btn btn-primary uppercase text-white font-bold bg-gradient-to-r from-secondary to-primary">Order Book</button>
                     </Link>
-                    {/* <Button className="btn btn-primary uppercase text-white font-bold bg-gradient-to-r from-secondary to-primary">Order Now</Button> */}
                 </div>
-
             </div>
-
-
         </div>
     );
 };
