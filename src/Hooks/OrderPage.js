@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+import OrderModal from './OrderModal';
+
 // import Button from '../Pages/Shared/Button';
 
 const OrderPage = () => {
@@ -7,6 +9,22 @@ const OrderPage = () => {
     const [parts, setParts] = useState({});
 
     /* */
+
+    const [quantity, setQuantity] = useState(5)
+    const handleIncrease = () => {
+        setQuantity(quantity + 1)
+
+    }
+    const handleDecrease = () => {
+
+        if (quantity <= 5) {
+
+        }
+        else {
+            setQuantity(quantity - 1)
+        }
+
+    }
 
 
     useEffect(() => {
@@ -28,11 +46,23 @@ const OrderPage = () => {
                 <h3>Minimum Order Qnty:{parts.minimum}</h3>
                 <h3>Available:{parts.available}</h3>
                 <h2>Price Per Qnty:{parts.price}</h2>
-                <div className="card-actions">
-                    <Link to="/allparts">
-                        <button className="btn btn-primary uppercase text-white font-bold bg-gradient-to-r from-secondary to-primary">Order Book</button>
-                    </Link>
+                <div className='my-5'>
+                    <button onClick={() => handleDecrease()} className="btn btn-xs">-</button>
+                    <input className='border-2 rounded-lg bg-zinc-500 text-white font-bold' type="tel" value={quantity} placeholder='Your product pices' id="" />
+                    <button onClick={() => handleIncrease()} className="btn btn-xs">+</button>
                 </div>
+                <div className="card-actions">
+
+                    <label
+                        htmlFor="cart-modal"
+                        onClick={() => setParts(parts)}
+                        className="btn btn-primary uppercase text-white font-bold bg-gradient-to-r from-secondary to-primary">Add Cart</label>
+
+                </div>
+                {
+                    parts && <OrderModal parts={parts} setParts={setParts}></OrderModal>
+
+                }
             </div>
         </div>
     );
